@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    font-family: "Poppins",sans-serif;
+    line-height: 2;
+    font-size: 20px;
+}
+
+h2{
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+hr{
+    background-color: blueviolet;
+    height: 10px;
+    width: 100%;
+    margin-bottom: 17px;
+    border-radius: 15px;
+    
+}
+/*--------------------------------------Menu------------------------------*/
+#menu{
+   background-color: blueviolet;
+   color: white;
+   border-radius: 15px;
+   width: 170px;
+   height: 1500px;
+   padding: 30px 45px;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+    
+   
+   
+}
+
+#menu h3{
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    font-weight: bolder;
+    margin-top: 25px;
+    padding: 8px 16px;
+    
+    
+}
+
+.links a:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+
+
+/*---------------------------Main----------------------------*/
+.main h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.main{
+    margin-left: 360px;
+    margin-right: 30px;
+    margin-top: 100px;
+    
+}
+
+/*------------------------Showcase-------------------------*/
+#showcase img{
+    width: 600px;
+    border-radius: 20px;
+    margin: 10px;
+    opacity: 0.8;
+}
+
+#showcase img:hover{
+    opacity: 1;
+}
+
+/*------------------Services--------------------------------*/
+
+/*-------------------------Members---------------------------*/
+
+#designers img{
+    border-radius: 20px;
+    width: 100%;
+    filter: grayscale(30%);   
+}
+
+.member{
+    display: inline-block;
+    width: 30%;
+    padding: 8px 8px;
+}
+
+.member .description{
+    background-color: #E7E8E7;
+    border-radius: 5px;
+    padding: 25px 15px;
+}
+
+.member .gray{
+    color: gray;
+}
+
+.member h3{
+    margin: 0px 0px;
+}
+
+/*-------------------------------------Packages----------------------------*/
+.tariff{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+}
+
+.tariff .tariff-name{
+    padding: 30px 0px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.pro .tariff-name{
+    background-color: crimson;
+}
+
+.pro #button{
+    background-color: crimson;
+    color: white;
+}
+
+.tariff ol{
+}
+
+.tariff li{
+    list-style-type: none;
+    border-bottom: 1px gray solid;
+    border-radius: 7px;
+    background-color: #F0F0F0;
+    padding: 15px;
+}
+
+.tariff .price{
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.tariff .gray{
+    color: #C3C3C3;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.tariff button{
+    padding: 15px 25px;
+    border-radius: 20px;
+    background-color: white;
+    border: 0px;
+    color: blueviolet;
+}
+
+
+
+input{
+    display: block;
+    width: 1500px;
+    height: 20px;
+    padding: 7px; 
+}
+
+#send{
+    height: 45px;
+    border-width: 0px;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 35px;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+#send:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+/*------------------------------------Footer-------------------------*/
+.footer{
+    background-color: gainsboro;
+    height: 100px;
+    text-align: right;
+    padding: 32px 58px 32px; 
+}
+
+.footer a{
+    color: black;
+}
